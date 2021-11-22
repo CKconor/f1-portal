@@ -1,13 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: hsl(207, 26%, 17%);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.teamColor {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 150px;
+  height: 100%;
+  clip-path: polygon(29% 0, 100% 0, 100% 100%, 11% 100%);
+}
+.mercedes {
+  background-color: #00d2be;
+}
+.red_bull {
+  background-color: #0600ef;
+}
+.alpine {
+  background-color: #0090ff;
+}
+.mclaren {
+  background-color: #ff8700;
+}
+.ferrari {
+  background-color: #dc0000;
+}
+.aston_martin {
+  background-color: #006f62;
+}
+.alphatauri {
+  background-color: #2b4562;
+}
+.alfa {
+  background-color: #900000;
+}
+.williams {
+  background-color: #005aff;
+}
+.haas {
+  background-color: #ffffff;
 }
