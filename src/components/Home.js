@@ -13,7 +13,7 @@ const Home = () => {
   const [winner, setWinner] = useState([]);
 
   useEffect(() => {
-    async function fetchLatestRace() {
+    async function fetchData() {
       const request = await axios.get(URL + "current/last/results.json");
       const latestRace = request.data.MRData.RaceTable.Races[0];
       const driverResults = request.data.MRData.RaceTable.Races[0].Results;
@@ -24,7 +24,7 @@ const Home = () => {
       setDriverResults(driverResults);
       setWinner(winner);
     }
-    fetchLatestRace();
+    fetchData();
   }, []);
 
   return (
