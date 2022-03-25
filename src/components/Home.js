@@ -4,7 +4,7 @@ import DriverRow from "./DriverRow";
 import "../index.css";
 import styles from "./styles";
 
-const URL = "http://ergast.com/api/f1/";
+const URL = "https://ergast.com/api/f1/";
 
 const Home = () => {
   const [latestRace, setLatestRace] = useState([]);
